@@ -43,6 +43,6 @@ def over?(board)
   won?(board) || full?(board) || full?(board)
 end
 
-def winner?(board)
-  winner(board) == "X" || winner(board) == "O"
+def winner(board)
+
 end
